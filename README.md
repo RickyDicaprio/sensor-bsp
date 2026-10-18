@@ -1,4 +1,4 @@
-# STM32F407 Sensor [BSP(Board Support Package)](https://en.wikipedia.org/wiki/Board_support_package)
+# STM32F407 Sensor [BSP](https://en.wikipedia.org/wiki/Board_support_package)(Board Support Package)
 
 This is a Bare-Metal, register level Board Support Package for the **STM32F407G-DISC1** (STM32F407VGT6, Cortex-M4)
 
