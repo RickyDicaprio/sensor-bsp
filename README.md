@@ -29,8 +29,8 @@ This is a Bare-Metal, register level Board Support Package for the **STM32F407G-
 
 
 ## Subsections to add
-- [ ] Design approach
-- [ ] Projet structure
-- [ ] Build and Flashing Instructions
-- [ ] References Section
+- Design approach
+- Projet structure
+- Build and Flashing Instructions
+- References Section
 
