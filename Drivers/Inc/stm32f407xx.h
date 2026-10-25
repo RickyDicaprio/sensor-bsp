@@ -69,7 +69,7 @@
  * AHB3 Peripherals Base Addresses
  */
 
-#define FSMC_CR_BASE 		AHB3PERIPH_BASE
+#define FSMC_CR_BASE 			AHB3PERIPH_BASE
 
 /*
  * AHB2 Peripherals Base Addresses
@@ -314,11 +314,11 @@ typedef struct {
  *  Clock Disable Macros for GPIOx peripherals
  */
 
-#define GPIOA_CLK_DI()  			(RCC->AHB1ENR &= ~(1 << 0))
-#define GPIOB_CLK_DI()  			(RCC->AHB1ENR &= ~(1 << 1))
-#define GPIOC_CLK_DI()  			(RCC->AHB1ENR &= ~(1 << 2))
-#define GPIOD_CLK_DI()  			(RCC->AHB1ENR &= ~(1 << 3))
-#define GPIOE_CLK_DI()  			(RCC->AHB1ENR &= ~(1 << 4))
+#define GPIOA_CLK_DI()  		(RCC->AHB1ENR &= ~(1 << 0))
+#define GPIOB_CLK_DI()  		(RCC->AHB1ENR &= ~(1 << 1))
+#define GPIOC_CLK_DI()  		(RCC->AHB1ENR &= ~(1 << 2))
+#define GPIOD_CLK_DI()  		(RCC->AHB1ENR &= ~(1 << 3))
+#define GPIOE_CLK_DI()  		(RCC->AHB1ENR &= ~(1 << 4))
 
 
 /* 
