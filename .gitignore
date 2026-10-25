@@ -8,4 +8,4 @@ Release/
 *.su
 *.d
 .metadata/
-
+.settings/
